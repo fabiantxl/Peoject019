@@ -1,17 +1,4 @@
--- ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
--- █                                                                                                                                █
--- █         ██       ██   ██    ██████   ██  ██       ██                                                                          █
--- █         ██       ██   ██      ██     ██  ██       ██                                                                          █
--- █         ██       ██   ██      ██     ██  ██       ██                                                                          █
--- █         ██       ██   ██      ██     ██  ██       ██                                                                          █
--- █         ██       ██   ██      ██     ██  ██       ██                                                                          █
--- █         ██       ██   ██      ██     ██  ██       ██                                                                          █
--- █         ██████████████████    ██     ██  ██████████████                                                                       █
--- █                                                                                                                                █
--- █                                     Lxail 3.0.0                                                 █
--- █                                          With Your Custom Design                                                               █
--- █                                                                                                                                █
--- ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+--LXAIL UI 2.0
 
 -- === ROBLOX SERVICES ===
 local TweenService, UserInputService, RunService, HttpService, TextService, GuiService, Players, CoreGui, SoundService, player, playerGui
@@ -2772,7 +2759,7 @@ end
 -- === GLOBAL KEYBIND FOR UI TOGGLE ===
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
     if gameProcessed then return end
-    if input.KeyCode == Enum.KeyCode.F then
+    if input.KeyCode == Enum.KeyCode.G then
         LXAIL:Toggle()
     end
 end)
